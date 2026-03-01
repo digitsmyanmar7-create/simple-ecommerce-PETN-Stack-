@@ -1,0 +1,168 @@
+.shipping-page {
+  padding: 40px 0;
+}
+
+.shipping-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.shipping-header h1 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.shipping-header p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.shipping-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.shipping-section {
+  margin-bottom: 50px;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.shipping-section h2 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.shipping-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.shipping-card {
+  text-align: center;
+  padding: 30px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  border: 2px solid transparent;
+}
+
+.shipping-card:hover {
+  transform: translateY(-5px);
+  border-color: #007bff;
+}
+
+.shipping-card h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.shipping-card .price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.shipping-card .time {
+  color: #28a745;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.shipping-card .description {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.zones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.zone-item {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.zone-item h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #007bff;
+}
+
+.zone-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.zone-item li {
+  color: #666;
+  padding: 8px 0;
+  border-bottom: 1px dashed #eee;
+}
+
+.zone-item li:last-child {
+  border-bottom: none;
+}
+
+.processing-info {
+  display: grid;
+  gap: 15px;
+}
+
+.info-item {
+  display: flex;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+
+.info-item .label {
+  width: 200px;
+  font-weight: 500;
+  color: #333;
+}
+
+.info-item .value {
+  flex: 1;
+  color: #666;
+}
+
+.coming-soon {
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  background: #e8f4ff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .shipping-options {
+    grid-template-columns: 1fr;
+  }
+  
+  .info-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .info-item .label {
+    width: auto;
+  }
+}

@@ -1,0 +1,59 @@
+.order-confirmation {
+  padding: 40px 20px;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmation-card {
+  background: white;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background: #28a745;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin: 0 auto 20px;
+}
+
+.confirmation-card h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.confirmation-card p {
+  margin-bottom: 15px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.order-id {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  background: #f0f8ff;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.confirmation-actions {
+  margin-top: 30px;
+}
+
+.confirmation-actions .btn {
+  min-width: 200px;
+}
